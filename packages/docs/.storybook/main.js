@@ -15,5 +15,13 @@ const config = {
   docs: {
     autodocs: "tag",
   },
+  viteFinal: (config, {configType}) => {
+    if (configType === "PRODUCTION") {
+      config.build.sourcemap = true;
+      config.base = "/05-design-system/";
+    }
+    
+    return config;
+  }
 };
 export default config;
