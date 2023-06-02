@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/eslint-config",
+  "extends": "@jiij-ignite-ui/eslint-config",
   "rules": {
     "prettier/prettier": "off"
   }

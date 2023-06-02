@@ -1,4 +1,4 @@
-import { colors } from '@ignite-ui/tokens'
+import { colors } from '@jiij-ignite-ui/tokens'
 import { getContrast } from 'polished'
 
 // https://storybook.js.org/docs/react/api/doc-block-colorpalette
