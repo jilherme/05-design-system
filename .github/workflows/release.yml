@@ -33,5 +33,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          TURBO_TOKEN: dnT2gscFH6GeCiXsZ8uHavrF
+          TURBO_TOKEN: ${{ sectrets.VERCEL_TOKEN }}
           TURBO_TEAM: jilherme
